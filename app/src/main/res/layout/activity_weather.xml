@@ -1,0 +1,42 @@
+<RelativeLayout android:layout_height="150dp"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".WeatherActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="CITY NAME"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dataTextView"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/cityTextView"
+        android:layout_width="wrap_content"
+        android:text="DATE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="WEATHER"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/weatherImageView"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_height="60dp"
+        android:layout_width="60dp" />
+</RelativeLayout>
